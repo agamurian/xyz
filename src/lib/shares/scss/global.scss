@@ -1,0 +1,73 @@
+@import "variable";
+
+:global {
+  html[data-color-scheme] {
+    body {
+      color: var(--main-font-color);
+      display: flex;
+      flex-direction: column;
+      height:100%;
+      font-family: Fira Code, Monaco, Consolas, "Courier New", monospace;
+    }
+
+    a {
+      color: var(--main-font-color);
+      text-decoration: none;
+      &:hover {
+        color: var(--main-font-color);
+        text-decoration: underline;
+      }
+    }
+
+    .curPoi {
+      cursor: pointer;
+    }
+
+    .btn {
+      border-radius: 15px;
+      background-color: #233125ee;
+      border-color: #566b60aa;
+      color: white;
+      &:hover {
+        color: rgb(190, 214, 181);
+        background-color:#364b4eaa
+      }
+    }
+    .rounded {
+      border-radius: 35px;
+    }
+
+    .card {
+      border:7px;
+      background-color: #eeeeeeee;
+      padding: 10px;
+      margin:10px;
+    }
+
+    .colinher {
+      color: inherit;
+      background-color: --main-bg-color;
+      z-index: 50;
+    }
+
+    .column {
+      -webkit-column-width: 200px;
+      -moz-column-width: 200px;
+      column-width: 200px;
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+      -webkit-column-gap: 2em;
+      -moz-column-gap: 2em;
+      column-gap: 2em;
+      -webkit-column-rule: 2px dashed #cccc;
+      -moz-column-rule: 2px dashed #cccc;
+      column-rule: 2px solid #cccc;
+      padding: 2em;
+    }
+
+    .notSel {
+      user-select: none;
+    }
+  }
+}

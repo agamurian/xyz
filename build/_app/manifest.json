@@ -1,0 +1,208 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-42c52f97.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-c254349b.js",
+      "_preload-helper-159545b2.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      "src/routes/__error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/en/index.svelte",
+      "src/routes/en/about.md",
+      "src/routes/ru/index.svelte",
+      "src/routes/ru/about.md",
+      "src/routes/[lang]/[...error]/__layout.reset.svelte",
+      "src/routes/[lang]/[...error]/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-ad4acdc1.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-159545b2.js",
+      "_index-c254349b.js",
+      "_index-81b296a2.js",
+      "_stores-88231fb1.js"
+    ],
+    "dynamicImports": [
+      "_bootstrap.bundle.min-3e95f5b0.js",
+      "node_modules/@fortawesome/fontawesome-free/js/all.min.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-beb2b8b3.css"
+    ]
+  },
+  "src/routes/__error.svelte": {
+    "file": "pages/__error.svelte-54b68035.js",
+    "src": "src/routes/__error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c254349b.js",
+      "_index-81b296a2.js",
+      "_stores-88231fb1.js",
+      "_preload-helper-159545b2.js"
+    ],
+    "css": [
+      "assets/pages/__error.svelte-714f9916.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-b059324c.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c254349b.js"
+    ]
+  },
+  "src/routes/en/index.svelte": {
+    "file": "pages/en/index.svelte-a71f3e8f.js",
+    "src": "src/routes/en/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c254349b.js",
+      "_index-81b296a2.js",
+      "_preload-helper-159545b2.js"
+    ]
+  },
+  "src/routes/en/about.md": {
+    "file": "pages/en/about.md-3d59034e.js",
+    "src": "src/routes/en/about.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c254349b.js"
+    ]
+  },
+  "src/routes/ru/index.svelte": {
+    "file": "pages/ru/index.svelte-3c2c5ad3.js",
+    "src": "src/routes/ru/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c254349b.js",
+      "_index-81b296a2.js",
+      "_preload-helper-159545b2.js"
+    ]
+  },
+  "src/routes/ru/about.md": {
+    "file": "pages/ru/about.md-1e84ddc8.js",
+    "src": "src/routes/ru/about.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c254349b.js"
+    ]
+  },
+  "src/routes/[lang]/[...error]/__layout.reset.svelte": {
+    "file": "pages/_lang_/_...error_/__layout.reset.svelte-258fd0ad.js",
+    "src": "src/routes/[lang]/[...error]/__layout.reset.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c254349b.js"
+    ]
+  },
+  "src/routes/[lang]/[...error]/index.svelte": {
+    "file": "pages/_lang_/_...error_/index.svelte-1514c5bc.js",
+    "src": "src/routes/[lang]/[...error]/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c254349b.js",
+      "src/routes/__error.svelte",
+      "_index-81b296a2.js",
+      "_stores-88231fb1.js",
+      "_preload-helper-159545b2.js"
+    ]
+  },
+  "_index-c254349b.js": {
+    "file": "chunks/index-c254349b.js"
+  },
+  "_preload-helper-159545b2.js": {
+    "file": "chunks/preload-helper-159545b2.js",
+    "imports": [
+      "_index-c254349b.js"
+    ]
+  },
+  "_index-81b296a2.js": {
+    "file": "chunks/index-81b296a2.js",
+    "imports": [
+      "_preload-helper-159545b2.js",
+      "_index-c254349b.js"
+    ],
+    "dynamicImports": [
+      "src/lib/translations/en/common.json",
+      "src/lib/translations/en/menu.json",
+      "src/lib/translations/en/home.json",
+      "src/lib/translations/en/error.json",
+      "src/lib/translations/ru/common.json",
+      "src/lib/translations/ru/menu.json",
+      "src/lib/translations/ru/home.json",
+      "src/lib/translations/ru/error.json"
+    ]
+  },
+  "_stores-88231fb1.js": {
+    "file": "chunks/stores-88231fb1.js",
+    "imports": [
+      "_index-c254349b.js"
+    ]
+  },
+  "_bootstrap.bundle.min-3e95f5b0.js": {
+    "file": "chunks/bootstrap.bundle.min-3e95f5b0.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/@fortawesome/fontawesome-free/js/all.min.js": {
+    "file": "chunks/all.min-c9a74dcf.js",
+    "src": "node_modules/@fortawesome/fontawesome-free/js/all.min.js",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/en/common.json": {
+    "file": "chunks/common-0b8e2f7f.js",
+    "src": "src/lib/translations/en/common.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/en/menu.json": {
+    "file": "chunks/menu-7a945dfc.js",
+    "src": "src/lib/translations/en/menu.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/en/home.json": {
+    "file": "chunks/home-346bf1d8.js",
+    "src": "src/lib/translations/en/home.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/en/error.json": {
+    "file": "chunks/error-60ee6c56.js",
+    "src": "src/lib/translations/en/error.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/ru/common.json": {
+    "file": "chunks/common-866baf95.js",
+    "src": "src/lib/translations/ru/common.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/ru/menu.json": {
+    "file": "chunks/menu-3a467a3d.js",
+    "src": "src/lib/translations/ru/menu.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/ru/home.json": {
+    "file": "chunks/home-3dbd43c8.js",
+    "src": "src/lib/translations/ru/home.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/ru/error.json": {
+    "file": "chunks/error-b172b9a7.js",
+    "src": "src/lib/translations/ru/error.json",
+    "isDynamicEntry": true
+  }
+}
