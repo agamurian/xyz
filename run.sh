@@ -1,1 +1,1 @@
-cd /home/agamurian/web/skis/ && env PORT="80" serve build
+cd ~/web/xyz && serve build

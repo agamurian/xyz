@@ -41,14 +41,15 @@
       }
     }
     .btn {
-      border-radius: 15px;
+      border-radius: 14px;
       background-color: saddlebrown;
       border-color: saddlebrown;
+      opacity: 86%;
       color: white;
-      transition: ease-in-out 1s;
+      transition: ease-in-out 0.35s;
       &:hover {
-        color:rgb(199, 211, 184);
-        background-color:#703906aa
+        color:rgb(239, 211, 184);
+        background-color:#e08906aa;
       }
     }
     .rounded {
@@ -99,9 +100,13 @@
     .container {
       padding-bottom: 0.5em;
       padding-top: 0.8em;
-      transition: 0.15s ease-in;
-      transition-delay: 0.15s;
+      transition: 15s ease-out;
+      transition-delay: 5s;
+      filter: blur(25px) saturate(0%);
       &:hover {
+        transition: 0.3s ease-in;
+        transition-delay: 0s;
+        filter: blur(0px) saturate(100%);
         padding-top: 0.2em;
         padding-bottom: 1.1em;
       }
@@ -111,8 +116,8 @@
         transition: 50s ease-in;
         filter: blur(0px) hue-rotate(210deg);
         &:hover{
-          transition: 1s ease-out;
-        filter: blur(50px) hue-rotate(90deg);
+          transition: 5s ease-out;
+        filter: blur(50px) hue-rotate(-270deg);
         }
       }
   }
