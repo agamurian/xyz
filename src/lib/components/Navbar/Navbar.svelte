@@ -44,7 +44,7 @@
                 </span> -->
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <img src="/xyz.png" width="26" height="26" style="margin-right: 8px;"/>
+        <img src="/xyz.png" class="hovery" width="26"  height="26" style="margin-right: 8px;"/>
         <a class="navbar-brand" href="/{$locale}/">agamurian</a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">

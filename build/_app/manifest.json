@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-56c88316.js",
+    "file": "start-6d9d2da6.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -20,7 +20,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-ad4acdc1.js",
+    "file": "pages/__layout.svelte-e07b418b.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -35,11 +35,11 @@
       "node_modules/@fortawesome/fontawesome-free/js/all.min.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-beb2b8b3.css"
+      "assets/pages/__layout.svelte-6f70aba2.css"
     ]
   },
   "src/routes/__error.svelte": {
-    "file": "pages/__error.svelte-54b68035.js",
+    "file": "pages/__error.svelte-73057d4e.js",
     "src": "src/routes/__error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -50,7 +50,7 @@
       "_preload-helper-159545b2.js"
     ],
     "css": [
-      "assets/pages/__error.svelte-714f9916.css"
+      "assets/pages/__error.svelte-337fc0bf.css"
     ]
   },
   "src/routes/index.svelte": {
@@ -63,7 +63,7 @@
     ]
   },
   "src/routes/en/index.svelte": {
-    "file": "pages/en/index.svelte-a71f3e8f.js",
+    "file": "pages/en/index.svelte-d5a8fb67.js",
     "src": "src/routes/en/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -83,7 +83,7 @@
     ]
   },
   "src/routes/ru/index.svelte": {
-    "file": "pages/ru/index.svelte-3c2c5ad3.js",
+    "file": "pages/ru/index.svelte-19fc91af.js",
     "src": "src/routes/ru/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -112,7 +112,7 @@
     ]
   },
   "src/routes/[lang]/[...error]/index.svelte": {
-    "file": "pages/_lang_/_...error_/index.svelte-1514c5bc.js",
+    "file": "pages/_lang_/_...error_/index.svelte-c6fee303.js",
     "src": "src/routes/[lang]/[...error]/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,

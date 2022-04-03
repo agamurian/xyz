@@ -8,6 +8,7 @@
       flex-direction: column;
       height:100%;
       font-family: Fira Code, Monaco, Consolas, "Courier New", monospace;
+      transition: all 0.15s ease-out;
     }
 
     a {
@@ -23,18 +24,39 @@
       cursor: pointer;
     }
 
+    .halfblack {
+      border-radius: 19px;
+      background-color: #f00a;
+    }
+
+    p {
+      background-color: #fff0;
+      transition: ease-in-out 0.5s;
+      transition-delay: 0.15s;
+      -o-transition-delay: 0.15s;
+      padding: 2px;
+      border-radius: 4px;
+      &:hover{
+        background-color: #7a7a7a2a;
+      }
+    }
     .btn {
       border-radius: 15px;
-      background-color: #233125ee;
-      border-color: #566b60aa;
+      background-color: saddlebrown;
+      border-color: saddlebrown;
       color: white;
+      transition: ease-in-out 1s;
       &:hover {
-        color: rgb(190, 214, 181);
-        background-color:#364b4eaa
+        color:rgb(199, 211, 184);
+        background-color:#703906aa
       }
     }
     .rounded {
       border-radius: 35px;
+    }
+
+    hr {
+      border-top: 3px saddlebrown dashed;
     }
 
     .card {
@@ -48,6 +70,7 @@
       color: inherit;
       background-color: --main-bg-color;
       z-index: 50;
+      padding-bottom: 10em;
     }
 
     .column {
@@ -69,5 +92,24 @@
     .notSel {
       user-select: none;
     }
+    .container {
+      padding-bottom: 0.5em;
+      padding-top: 0.8em;
+      transition: 0.15s ease-in;
+      transition-delay: 0.15s;
+      &:hover {
+        padding-top: 0.2em;
+        padding-bottom: 1.1em;
+      }
+
+    }
+      .hovery{
+        transition: 50s ease-in;
+        filter: blur(0px) hue-rotate(210deg);
+        &:hover{
+          transition: 10s ease-out;
+        filter: blur(5px) hue-rotate(90deg);
+        }
+      }
   }
 }
