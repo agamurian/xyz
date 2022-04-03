@@ -36,14 +36,14 @@
   <a href="http://skis.host"><div class="card-header btn h2">SKIS</div></a>
   <div class="card-body">
     <img class="img-fluid rounded" src="https://raw.githubusercontent.com/agamurian/agamurian.github.io/master/assets/img/005.png" />
-        <h2>Based on Sveltekit</h2>
+        <h2>System level:</h2>
         <p class="card-text">dynamic routing and static site generation, also svelte support</p>
   </div>
 </div>
 <div class="card text-white bg-dark halfblack mb-3" style="max-width: 18rem;">
   <a href="http://skis.host"><div class="card-header btn h2">SKIS</div></a>
   <div class="card-body">
-        <h2>Based on Sveltekit</h2>
+        <h2>3D Graphics:</h2>
         <p class="card-text">dynamic routing and static site generation, also svelte support</p>
   </div>
 </div>
