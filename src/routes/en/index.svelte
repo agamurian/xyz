@@ -9,7 +9,7 @@
 <img src="/xyz.png" alt="" class="img-fluid m-5 p-5 hovery" width="256px" height="256px">  
 </div>
 <div class="col col-lg col-lg-8 col-8">
-  <h2 class="m-5 p-5">HI! I am Agamurian, media artist, developer and 3D<&nbsp>Generalist</h2>
+  <h2 class="m-5 p-5">HI! I am Agamurian, media&#8209;artist, developer and 3D&nbsp;Generalist</h2>
 </div>
 
   </div>
