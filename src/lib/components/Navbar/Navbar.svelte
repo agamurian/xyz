@@ -9,6 +9,8 @@
     import LocaleSwitcher from '$lib/components/Switcher/LocaleSwitcher.svelte'
     import {colorScheme} from "$lib/shares/js/ClassColorScheme/ClassColorScheme"
 
+    let y
+
     $: ({route, lang} = $page.stuff)
     const colorSchemeMapping = {
         dark: ['navbar-light', 'bg-light'],
@@ -44,7 +46,7 @@
                 </span> -->
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <img src="/xyz.png" class="hovery" width="26"  height="26" style="margin-right: 8px;"/>
+        <img src="/xyz.png" class="hovery" width="26"  height="26" style="margin-right: 8px;filter:hue-rotate({350-y}deg);"/>
         <a class="navbar-brand" href="/{$locale}/">agamurian</a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -99,3 +101,5 @@
     }
   }
 </style>
+
+<svelte:window bind:scrollY={y} />

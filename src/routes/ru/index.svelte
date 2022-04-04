@@ -9,6 +9,7 @@
 <img src="/xyz.png" alt="" class="img-fluid m-5 p-4 hovery" width="256px" height="256px">  
 </div>
 <div class="col col-lg col-lg-8 col-8">
+  <br>
   <h1 class="m-5 p-4">Привет! Я Agamurian, медиа&#8209;художник, разработчик и 3D&nbsp;Дженералист</h1>
 </div>
 

@@ -10,6 +10,7 @@
 </div>
 <div class="col col-lg col-lg-8 col-8">
   <br>
+  <br>
   <h1 class="m-5 p-4">HI! I am Agamurian, media&#8209;artist, developer and 3D&nbsp;Generalist</h1>
 </div>
 

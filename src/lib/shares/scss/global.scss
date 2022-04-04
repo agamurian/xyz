@@ -7,7 +7,7 @@
       display: flex;
       flex-direction: column;
       height:100%;
-      font-family: Fira Code, Monaco, Consolas, "Courier New", monospace;
+      font-family: 'Scada','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Monaco, Consolas, "Courier New", monospace;
       transition: all 0.15s ease-out;
     }
 
@@ -60,6 +60,9 @@
       border-top: 3px saddlebrown dashed;
     }
 
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'EB Garamond', serif;
+    }
     .card {
       border:7px;
       background-color: #eeeeeeee;
@@ -102,13 +105,24 @@
       padding-top: 0.8em;
       transition: 15s ease-out;
       transition-delay: 5s;
-      filter: blur(25px) saturate(0%);
+      filter: blur(10px) saturate(0%);
+        p {
+        font-family: 'Flow Block';
+        font-size: 15.5px;
+        transition: none;
+        }
       &:hover {
-        transition: 0.3s ease-in;
+        transition: 0.1s ease-in;
         transition-delay: 0s;
         filter: blur(0px) saturate(100%);
         padding-top: 0.2em;
         padding-bottom: 1.1em;
+        p {
+        font-family: 'Scada';
+        font-size: 16px;
+        transition-delay: 0s;
+        transition: 0.06s ease;
+        }
       }
       &:active {
         transition: 0.1s ease;
@@ -117,15 +131,21 @@
         padding-top: 0.2em;
         padding-bottom: 1.1em;
       }
+      p {
+        &:hover {
+          font-family: 'Scada';
+        }
+      }
 
     }
       .hovery{
-        transition: 50s ease-in;
+        transition: 10s ease-in;
         filter: blur(0px) hue-rotate(210deg);
         &:hover{
           transition: 5s ease-out;
-        filter: blur(50px) hue-rotate(-270deg);
+        filter: blur(40px) hue-rotate(-370deg);
         }
       }
+
   }
 }

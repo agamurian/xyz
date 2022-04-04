@@ -1,4 +1,4 @@
-import{S as st,i as rt,s as ot,e as a,t as i,k as n,c as s,a as o,h as d,d as r,m as h,b as q,g as nt,J as e,E as ye}from"../../chunks/index-c254349b.js";function ht(Ye){let t,E,C,D,m,J,V,j,z,g,F,O,k,Q,W,c,H,x,R,X,Y,P,I,M,Z,$,v,A,L,ee,te,b,le,ae,se,re,y,oe,ne,p,Ze=`<code class="language-undefined">git clone https://github.com/agamurian/skis.git
+import{S as st,i as rt,s as ot,e as a,t as i,k as n,c as s,a as o,h as d,d as r,m as h,b as q,g as nt,J as e,E as ye}from"../../chunks/index-930d7b4d.js";function ht(Ye){let t,E,C,D,m,J,V,j,z,g,F,O,k,Q,W,c,H,x,R,X,Y,P,I,M,Z,$,v,A,L,ee,te,b,le,ae,se,re,y,oe,ne,p,Ze=`<code class="language-undefined">git clone https://github.com/agamurian/skis.git
 cd skis
 yarn
 </code>`,he,ie,de,S,ce,ve,_,$e=`<code class="language-undefined">yarn dev --host
