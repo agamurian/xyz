@@ -1,54 +1,29 @@
 <div class="container my-5">
 
-# skis
+# Обо мне:
 
-####  Статичный генератор сайтов на sveltekit + mdsvex + i18n + bootstrap5
+### Всем привет, меня зовут Андрей
 
 ---
-skis (или лыжы (рус, коми)) это отличный и простой способ стать быстрее!
+я художник, программист и 3дшник, эот мой сайт
 
-#### skis использует:
-- _sveltekit_
-- _i18n_
-- _svelte_mdsvex_
+#### я использую:
+- Blender
+- Python
+- Svelte
+- Linux
+- js
+- sh
  
- вот еще почему он назван SKIS
+а также могу и в 2д рисовать
 
 ---
 
-## Установка:
+## Github:
 ```
-git clone https://github.com/agamurian/skis.git
-cd skis
-yarn
-
+https://github.com/agamurian/
 ```
 
----
-
-## Запустить сервер разработчика:
-```
-yarn dev --host
-
-```
-
----
-
-## Собрать статичный сайт:
-```
-yarn build
-
-```
-
----
-
-# Возможности:
-
-#### Все возможности svelte + sveltekit роутинг и генерация статитки + mdsvex + i18n встроена + Bootstrap5 css
-на этом стэке можно делать быстрые сайты, быстро.
-
----
-
-skis разработал AGAMURIAN
+этот сайт я написал сам - AGAMURIAN
 
 </div>

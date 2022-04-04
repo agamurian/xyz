@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-b4f03475.js",
+    "file": "start-d8469c4f.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -63,7 +63,7 @@
     ]
   },
   "src/routes/en/index.svelte": {
-    "file": "pages/en/index.svelte-63d92053.js",
+    "file": "pages/en/index.svelte-7644c3b4.js",
     "src": "src/routes/en/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -74,7 +74,7 @@
     ]
   },
   "src/routes/en/about.md": {
-    "file": "pages/en/about.md-ddf51ef9.js",
+    "file": "pages/en/about.md-a200f4f4.js",
     "src": "src/routes/en/about.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -83,7 +83,7 @@
     ]
   },
   "src/routes/ru/index.svelte": {
-    "file": "pages/ru/index.svelte-e8ab8287.js",
+    "file": "pages/ru/index.svelte-faf64a78.js",
     "src": "src/routes/ru/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -94,7 +94,7 @@
     ]
   },
   "src/routes/ru/about.md": {
-    "file": "pages/ru/about.md-c2faf486.js",
+    "file": "pages/ru/about.md-7600cfc7.js",
     "src": "src/routes/ru/about.md",
     "isEntry": true,
     "isDynamicEntry": true,
