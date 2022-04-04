@@ -66,6 +66,8 @@
       font-family: 'EB Garamond', serif;
     }
     .card {
+      position: sticky;
+      display: block;
       border:7px;
       background-color: #eeeeeeee;
       padding: 10px;
