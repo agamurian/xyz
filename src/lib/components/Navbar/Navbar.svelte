@@ -34,13 +34,13 @@
     })
 </script>
 
-<nav bind:this="{navBar}" class="black nav sticky-top navbar-expand-lg rounded-0 sm" >
+<nav bind:this="{navBar}" class="nav sticky-top navbar-expand-lg rounded-0 sm opacy" >
     <div class="container-fluid d-flex flex-wrap flex-column flex-lg-row justify-content-start align-items-start inline inline-block" style="background-color: #00000099">
             <div class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false"
                     aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars" ></i>
+                <i class="fa-solid fa-bars p-1 m-1" ></i>
                 <!-- <span class="navbar-brand text-muted">
                     {$t('common.menu')}
                 </span> -->
@@ -85,6 +85,7 @@
 
 <style lang="scss">
   .navbar {
+    background: #ccca;
     &-brand,
     &-brand:hover {
       text-decoration: none;
@@ -99,6 +100,9 @@
         box-shadow: none;
       }
     }
+  }
+  .opacy {
+      background-color: #3333;
   }
 </style>
 

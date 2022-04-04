@@ -11,12 +11,14 @@
       transition: all 0.15s ease-out;
     }
 
+
     a {
       color: var(--main-font-color);
-      text-decoration: none;
+      text-decoration: underline #4f40;
+      transition: ease-in-out 0.25s;
       &:hover {
         color: var(--main-font-color);
-        text-decoration: underline;
+        text-decoration: underline #ea7a3a9a;
       }
     }
 
@@ -101,8 +103,6 @@
       user-select: none;
     }
     .container {
-      padding-bottom: 0.5em;
-      padding-top: 0.8em;
       transition: 15s ease-out;
       transition-delay: 5s;
       filter: blur(10px) saturate(0%);
@@ -115,8 +115,6 @@
         transition: 0.1s ease-in;
         transition-delay: 0s;
         filter: blur(0px) saturate(100%);
-        padding-top: 0.2em;
-        padding-bottom: 1.1em;
         p {
         font-family: 'Scada';
         font-size: 16px;
@@ -128,8 +126,6 @@
         transition: 0.1s ease;
         transition-delay: 0s;
         filter: blur(0px) saturate(100%);
-        padding-top: 0.2em;
-        padding-bottom: 1.1em;
       }
       p {
         &:hover {
@@ -138,6 +134,13 @@
       }
 
     }
+
+    code {
+      font-family: 'PT Mono'; 
+      margin-top: 15px;
+      font-size: large;
+    }
+    
       .hovery{
         transition: 10s ease-in;
         filter: blur(0px) hue-rotate(210deg);
