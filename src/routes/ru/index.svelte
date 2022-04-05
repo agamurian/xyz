@@ -56,21 +56,21 @@
 
         <h2>3D Graphics:</h2>
 <div class="card text-white bg-dark halfblack m-2 mb-5 sticky-top" style="max-width: 99%;">
-  <a href="/3d/rig"><div class="card-header btn h2 ">RIG</div></a>
+  <a href="3d/rig"><div class="card-header btn h2 ">RIG</div></a>
   <div class="card-body">
         <h2>Rig & Animation</h2>
         <p class="card-text">Animations suitable for game engines</p>
   </div>
 </div>
 <div class="card text-white bg-dark halfblack m-2 mb-5 sticky-top" style="max-width: 99%;">
-  <a href="/3d/ar_vr"><div class="card-header btn h2">AR_VR</div></a>
+  <a href="3d/ar_vr"><div class="card-header btn h2">AR_VR</div></a>
   <div class="card-body">
         <h2>AR | VR:</h2>
         <p class="card-text">dynamic routing and static site generation, also svelte support</p>
   </div>
 </div>
 <div class="card text-white bg-dark halfblack m-2 mb-5 sticky-top" style="max-width: 99%;">
-  <a href="/3d/param_anim"><div class="card-header btn h2">Param_anim</div></a>
+  <a href="3d/param_anim"><div class="card-header btn h2">Param_anim</div></a>
   <div class="card-body">
         <h2>Parametric animation:</h2>
         <p class="card-text">with noise, sin & limits in Blender</p>
@@ -83,7 +83,7 @@
 
         <h2>System level:</h2>
 <div class="card text-white bg-dark halfblack m-2 mb-5 sticky-top" style="max-width: 99%;">
-  <a href="/art/procrastinator"><div class="card-header btn h2">Procrastinator</div></a>
+  <a href="art/procrastinator"><div class="card-header btn h2">Procrastinator</div></a>
   <div class="card-body">
     <img class="img-fluid rounded" src="https://raw.githubusercontent.com/agamurian/agamurian.github.io/master/assets/img/005.png" />
         <h2>Procrastinator:</h2>
