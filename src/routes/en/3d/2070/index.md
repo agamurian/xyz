@@ -8,34 +8,28 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="/wallpaper.webp" class="bd-placeholder-img" width="100%" height="100%" alt="...">
-
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>Cheburashka OS</h1>
-            <p>Free operation system for a modern user</p>
-            <p><a class="btn btn-lg btn-primary" href="download">Download</a></p>
+            <h1></h1>
+            <p>Free system for a modernity</p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <img src="/cinnamon.webp" class="bd-placeholder-img" width="100%" height="100%" alt="...">
-
         <div class="container">
           <div class="carousel-caption">
-            <h1>Professional Choise</h1>
-            <p>Programs for editing on base of FOSS.</p>
-            <p><a class="btn btn-lg btn-primary" href="installed">Software</a></p>
+            <h1>Choise</h1>
+            <p>for base of xOSS.</p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <img src="/i3.webp" class="bd-placeholder-img" width="100%" height="100%" alt="...">
-
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>I3 build</h1>
-            <p>Tiling window manager - for expirienced users</p>
-            <p><a class="btn btn-lg btn-primary" href="download/i3">Dowload i3 build</a></p>
+            <h1>Teambuilding</h1>
+            <p>cow manager - for expirienced cows</p>
           </div>
         </div>
       </div>
