@@ -79,7 +79,7 @@
   </div>
 </div>
 <br>
-        <a class="btn btn-secondary" href="/gallery">Gallery</a>
+        <a class="btn btn-secondary" href="gallery">Gallery</a>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
 

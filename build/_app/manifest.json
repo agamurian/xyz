@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-b2ac2a92.js",
+    "file": "start-393f593d.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -12,14 +12,18 @@
       "src/routes/__error.svelte",
       "src/routes/index.svelte",
       "src/routes/en/index.svelte",
+      "src/routes/en/gallery.md",
       "src/routes/en/about.md",
       "src/routes/en/3d/__layout.svelte",
       "src/routes/en/3d/param_anim.md",
       "src/routes/en/3d/ar_vr.md",
+      "src/routes/en/3d/2070/index.md",
       "src/routes/en/3d/rig.md",
       "src/routes/ru/index.svelte",
+      "src/routes/ru/gallery.md",
       "src/routes/ru/about.md",
       "src/routes/ru/3d/__layout.svelte",
+      "src/routes/ru/3d/index.md",
       "src/routes/ru/3d/param_anim.md",
       "src/routes/ru/3d/ar_vr.md",
       "src/routes/ru/3d/rig.md",
@@ -71,7 +75,7 @@
     ]
   },
   "src/routes/en/index.svelte": {
-    "file": "pages/en/index.svelte-b5a333cd.js",
+    "file": "pages/en/index.svelte-a8ba1f82.js",
     "src": "src/routes/en/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -79,6 +83,15 @@
       "_index-930d7b4d.js",
       "_index-76b44084.js",
       "_preload-helper-bedf4d66.js"
+    ]
+  },
+  "src/routes/en/gallery.md": {
+    "file": "pages/en/gallery.md-5fee37ca.js",
+    "src": "src/routes/en/gallery.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-930d7b4d.js"
     ]
   },
   "src/routes/en/about.md": {
@@ -117,8 +130,17 @@
       "_index-930d7b4d.js"
     ]
   },
+  "src/routes/en/3d/2070/index.md": {
+    "file": "pages/en/3d/2070/index.md-27a7bad4.js",
+    "src": "src/routes/en/3d/2070/index.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-930d7b4d.js"
+    ]
+  },
   "src/routes/en/3d/rig.md": {
-    "file": "pages/en/3d/rig.md-3cd5b9af.js",
+    "file": "pages/en/3d/rig.md-fb852085.js",
     "src": "src/routes/en/3d/rig.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -127,7 +149,7 @@
     ]
   },
   "src/routes/ru/index.svelte": {
-    "file": "pages/ru/index.svelte-e9d78c92.js",
+    "file": "pages/ru/index.svelte-8bdba116.js",
     "src": "src/routes/ru/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -135,6 +157,15 @@
       "_index-930d7b4d.js",
       "_index-76b44084.js",
       "_preload-helper-bedf4d66.js"
+    ]
+  },
+  "src/routes/ru/gallery.md": {
+    "file": "pages/ru/gallery.md-a2864fb8.js",
+    "src": "src/routes/ru/gallery.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-930d7b4d.js"
     ]
   },
   "src/routes/ru/about.md": {
@@ -149,6 +180,15 @@
   "src/routes/ru/3d/__layout.svelte": {
     "file": "pages/ru/3d/__layout.svelte-2b7c9b99.js",
     "src": "src/routes/ru/3d/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-930d7b4d.js"
+    ]
+  },
+  "src/routes/ru/3d/index.md": {
+    "file": "pages/ru/3d/index.md-ed883974.js",
+    "src": "src/routes/ru/3d/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [

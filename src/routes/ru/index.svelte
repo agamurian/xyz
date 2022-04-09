@@ -54,7 +54,7 @@
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
 
-        <h2>3D Graphics:</h2>
+        <a href="3d"><h2>3D Graphics:</h2></a>
 <div class="card text-white bg-dark halfblack m-2 mb-5 sticky-top" style="max-width: 99%;">
   <a href="3d/rig"><div class="card-header btn h2 ">RIG</div></a>
   <div class="card-body">
@@ -77,7 +77,7 @@
   </div>
 </div>
 <br>
-        <a class="btn btn-secondary" href="/gallery">Gallery</a>
+        <a class="btn btn-secondary" href="gallery">Gallery</a>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
 
