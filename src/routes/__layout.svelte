@@ -1,8 +1,7 @@
 <script context="module">
     // Global use css / javascript file
     import 'bootstrap/dist/css/bootstrap.min.css';
-    import SveltePanorama from '../lib/components/svelte-panorama-master/SveltePanorama.svelte';
-
+    import Panorama from 'svelte-panorama-component';
     // Components
     import Footer from '$lib/components/Footer/Footer.svelte';
 
