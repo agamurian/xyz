@@ -27,3 +27,5 @@ https://github.com/agamurian/
 этот сайт я написал сам - AGAMURIAN
 
 </div>
+
+<svelte-panorama src='/1d.png'>
