@@ -28,4 +28,4 @@ https://github.com/agamurian/
 
 </div>
 
-<svelte-panorama src='/1d.png'>
+<svelte-panorama src='/1d.png'/>
