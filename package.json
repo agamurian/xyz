@@ -41,6 +41,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@meshhouse/model-viewer": "^1.0.1"
+		"@meshhouse/model-viewer": "^1.0.1",
+		"ogl": "^0.0.91"
 	}
 }
