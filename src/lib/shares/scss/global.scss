@@ -107,11 +107,10 @@
     .container {
       transition: 15s ease-out;
       transition-delay: 5s;
-      filter: blur(10px) saturate(0%);
+      filter: blur(0px) saturate(0%);
         p {
-        font-family: 'Flow Block';
-        font-size: 15.5px;
-        transition: none;
+        font-family: 'Scada';
+        transition: 1s ease;
         }
       &:hover {
         transition: 0.1s ease-in;
@@ -119,7 +118,6 @@
         filter: blur(0px) saturate(100%);
         p {
         font-family: 'Scada';
-        font-size: 16px;
         transition-delay: 0s;
         transition: 0.06s ease;
         }
@@ -132,6 +130,7 @@
       p {
         &:hover {
           font-family: 'Scada';
+	  background-color: #5555;
         }
       }
 

@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-b55c119c.js",
+    "file": "start-8fe6de49.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -27,12 +27,11 @@
       "src/routes/ru/3d/param_anim.md",
       "src/routes/ru/3d/ar_vr.md",
       "src/routes/ru/3d/rig.md",
-      "src/routes/[lang]/[...error]/__layout.reset.svelte",
       "src/routes/[lang]/[...error]/index.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-2450c93f.js",
+    "file": "pages/__layout.svelte-610bc90a.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -47,11 +46,11 @@
       "node_modules/@fortawesome/fontawesome-free/js/all.min.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-1f2ab782.css"
+      "assets/pages/__layout.svelte-5d128061.css"
     ]
   },
   "src/routes/__error.svelte": {
-    "file": "pages/__error.svelte-3bb52039.js",
+    "file": "pages/__error.svelte-7fc6d253.js",
     "src": "src/routes/__error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -62,7 +61,7 @@
       "_preload-helper-bedf4d66.js"
     ],
     "css": [
-      "assets/pages/__error.svelte-e7eb9c09.css"
+      "assets/pages/__error.svelte-8ddc5d36.css"
     ]
   },
   "src/routes/index.svelte": {
@@ -169,7 +168,7 @@
     ]
   },
   "src/routes/ru/about.md": {
-    "file": "pages/ru/about.md-7600cfc7.js",
+    "file": "pages/ru/about.md-1bb086b0.js",
     "src": "src/routes/ru/about.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -222,17 +221,8 @@
       "_index-930d7b4d.js"
     ]
   },
-  "src/routes/[lang]/[...error]/__layout.reset.svelte": {
-    "file": "pages/_lang_/_...error_/__layout.reset.svelte-d17a8d5a.js",
-    "src": "src/routes/[lang]/[...error]/__layout.reset.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-930d7b4d.js"
-    ]
-  },
   "src/routes/[lang]/[...error]/index.svelte": {
-    "file": "pages/_lang_/_...error_/index.svelte-13575cfa.js",
+    "file": "pages/_lang_/_...error_/index.svelte-6e386ff4.js",
     "src": "src/routes/[lang]/[...error]/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,

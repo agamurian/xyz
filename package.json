@@ -1,9 +1,9 @@
 {
-	"name": "svelte-kit-i18n",
+	"name": "kerkagallery",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
+		"build": "svelte-kit build && cp -Ru build public",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
@@ -34,6 +34,7 @@
 		"sass": "^1.49.9",
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.2.6",
+		"svelte-image": "^0.2.9",
 		"svelte-preprocess": "^4.10.1",
 		"sveltekit-i18n": "^2.1.0",
 		"tslib": "^2.3.1",
@@ -41,7 +42,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@meshhouse/model-viewer": "^1.0.1",
-		"ogl": "^0.0.91"
+		"@meshhouse/model-viewer": "^1.0.1"
 	}
 }
